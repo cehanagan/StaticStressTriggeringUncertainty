@@ -1,7 +1,9 @@
 # StaticStressTriggering
 
-This contains files for [enter publication]. The results and input for each aftershock sequence (Umbria-Marche UM, L'Aquila LA, Ridgecrest RC) are available in the Relax directory. In each earthquake directory, there are three subdirectories with files described below:
-- run/: a coseismic input file for the earthquake sequence with aftershock points and fault plane slip distributions. 
+Interactive 3D plots for the aftershock sequences with associated Coulomb Failure Stress change are available [here](https://observablehq.com/@cehanagan/aftershock_stress).
+
+This repository contains files for [enter publication]. The input and results for each aftershock sequence (Umbria-Marche UM, L'Aquila LA, Ridgecrest RC) are available in the Relax directory. In each earthquake directory, there are three subdirectories with files described below:
+- run/: coseismic input files for the earthquake sequence with aftershock points and fault plane slip distributions. These are for Relax 1.0.7 (Barbot and Fialko, 2010 [a,b]; Barbot, 2014).
 - synthetic_points/: three point files with randomized 3D locations and assigned strike-constrained plane parameters following the methodology described in the main text.
 - results/: the stress tensor outputs for each point (i.e. aftershock) provided at the model run time for the synthetic and non-synthetic results. The non-synthetic result files also provide the original parameters, timing, and locations for the aftershocks analyzed in this study.
 
@@ -12,4 +14,3 @@ All x1 (N), x2 (E), x3 (D) positions within files for each earthquake sequence a
 
 Interactive 3D plots for the aftershock sequences with associated Coulomb Failure Stress change are available [here](https://observablehq.com/@cehanagan/aftershock_stress).
 
-The input files for RELAX 1.0.7 (Barbot and Fialko, 2010 [a,b]; Barbot, 2014) are also in this directory.
