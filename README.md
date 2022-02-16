@@ -1,4 +1,4 @@
-#StaticStressTriggering
+# StaticStressTriggering
 
 This contains files for [enter publication]. The results and input for each aftershock sequence (Umbria-Marche UM, L'Aquila LA, Ridgecrest RC) are available in the Relax directory. In each earthquake directory, there are three subdirectories with files described below:
 - run/: a coseismic input file for the earthquake sequence with aftershock points and fault plane slip distributions. 
@@ -11,3 +11,5 @@ All x1 (N), x2 (E), x3 (D) positions within files for each earthquake sequence a
 - Ridgecrest: 35.771 N, -117.599 E
 
 Interactive 3D plots for the aftershock sequences with associated Coulomb Failure Stress change are available [here](https://observablehq.com/@cehanagan/aftershock_stress).
+
+The input files for RELAX 1.0.7 (Barbot and Fialko, 2010 [a,b]; Barbot, 2014) are also in this directory.
